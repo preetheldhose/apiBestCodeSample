@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="trawik_option_none(failed)">
+    <parameter name="testOption" value="disabilityUpgradeNone_HomeCountryNo"/>
+    <classes>
+      <class name="com.test.automatiom.testCaseTrawikAPIFetchUIElements">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.automatiom.testCaseTrawikAPIFetchUIElements -->
+    </classes>
+  </test> <!-- trawik_option_none(failed) -->
+</suite> <!-- Failed suite [Suite] -->

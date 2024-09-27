@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<!-- Trawik -->
+	<!-- 1st set 1 thro 5-->
+	   
+	<test name="trawik_option_none">
+      <parameter name="testOption" value="disabilityUpgradeNone_HomeCountryNo"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+    <test name="trawik_option_50k">
+      <parameter name="testOption" value="disabilityUpgrade50k_HomeCountryNo"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+    <test name="trawik_option_100k">
+      <parameter name="testOption" value="disabilityUpgrade100k_HomeCountryNo"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+    <test name="trawik_option_250k">
+      <parameter name="testOption" value="disabilityUpgrade250k_HomeCountryNo"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+    <test name="trawik_option_500k">
+      <parameter name="testOption" value="disabilityUpgrade500k_HomeCountryNo"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+   <!-- 2nd set 1 thro 5-->
+    
+   <test name="trawik_option_disabilityUpgradeNone_HomeCountryYes">
+      <parameter name="testOption" value="disabilityUpgradeNone_HomeCountryYes"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+   <test name="trawik_option_disabilityUpgrade50k_HomeCountryYes">
+      <parameter name="testOption" value="disabilityUpgrade50k_HomeCountryYes"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+   <test name="trawik_option_disabilityUpgrade100k_HomeCountryYes">
+      <parameter name="testOption" value="disabilityUpgrade100k_HomeCountryYes"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+     <test name="trawik_option_disabilityUpgrade250k_HomeCountryYes">
+      <parameter name="testOption" value="disabilityUpgrade250k_HomeCountryYes"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+   <test name="trawik_option_disabilityUpgrade500k_HomeCountryYes">
+      <parameter name="testOption" value="disabilityUpgrade500k_HomeCountryYes"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+
+   <!-- 3rd set 1 thro 5-->
+    
+   <test name="trawik_option_disabilityUpgradeNone_SportActivityYes1">
+      <parameter name="testOption" value="disabilityUpgradeNone_SportActivityYes1"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+   <test name="trawik_option_disabilityUpgrade50k_SportActivityYes1">
+      <parameter name="testOption" value="disabilityUpgrade50k_SportActivityYes1"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+   <test name="trawik_option_disabilityUpgrade100k_SportActivityYes1">
+      <parameter name="testOption" value="disabilityUpgrade100k_SportActivityYes1"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+    <test name="trawik_option_disabilityUpgrade250k_SportActivityYes1">
+      <parameter name="testOption" value="disabilityUpgrade250k_SportActivityYes1"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+    <test name="trawik_option_disabilityUpgrade500k_SportActivityYes1">
+      <parameter name="testOption" value="disabilityUpgrade500k_SportActivityYes1"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawik"/>
+      </classes>
+    </test> <!-- Test -->
+    
+    <!-- Atlas America -->
+    
+    <test name="Atlas_America">
+      <classes>
+        <class name="com.test.automatiom.testCaseAtlasAmericaFinalWithTimings"/>
+      </classes>
+    </test> <!-- Test -->
+    
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<!-- Trawik -->
+	<!-- 1st set 1 thro 5-->
+	   
+	<test name="trawik_option_none">
+      <parameter name="testOption" value="disabilityUpgradeNone_HomeCountryNo"></parameter>
+      <classes>
+        <class name="com.test.automatiom.testCaseTrawikAPIFetchUIElements"/>
+      </classes>
+    </test> <!-- Test -->
+    
+</suite> <!-- Suite -->
+

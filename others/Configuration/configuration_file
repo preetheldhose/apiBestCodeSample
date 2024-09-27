@@ -1,0 +1,4 @@
+baseUrl_TW = https://staging.builds.visitorscoverage.ws/visitor-insurance/safetravelsusacomprehensive/?source=plan-list
+baseUrl_TW_Old = https://staging.builds.visitorscoverage.ws/visitor-insurance/choiceamerica/?source=plan-list
+baseUrl_TW_QA = https://qa.builds.visitorscoverage.ws/visitor-insurance/choiceamerica/?source=plan-list
+baseuUrl_Other = https://staging.builds.visitorscoverage.ws/visitor-insurance/atlasamerica/

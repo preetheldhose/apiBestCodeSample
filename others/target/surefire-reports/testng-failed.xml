@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="trawik_option_50k(failed)" verbose="0">
+    <parameter name="testOption" value="disabilityUpgrade50k_HomeCountryNone"/>
+    <classes>
+      <class name="com.test.automatiom.testCaseTrawik">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.test.automatiom.testCaseTrawik -->
+    </classes>
+  </test> <!-- trawik_option_50k(failed) -->
+</suite> <!-- Failed suite [Suite] -->

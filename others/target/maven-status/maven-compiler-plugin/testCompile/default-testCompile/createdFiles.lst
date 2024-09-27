@@ -1,0 +1,11 @@
+com/test/automatiom/testCaseTrawik_TC2.class
+com/test/automatiom/testCaseAtlasAmericaFinalWithTimingsForJenkins.class
+com/test/automatiom/testCaseTrawik_TC1.class
+com/test/utils/utilsClass.class
+com/test/automatiom/testCaseTrawik_TC3.class
+com/test/automatiom/testCaseAtlasAmericaFinalWithTimings.class
+com/test/automatiom/testCaseAtlasAmericaFinalWithTimingsPOMWiseFinal.class
+com/test/pages/atlasAmericaPurchasePOMPageLatest.class
+com/test/automatiom/testCaseTrawik.class
+com/test/pages/trawikPurchasePOMPageLatest.class
+com/test/helperMethods/helperUtil.class
